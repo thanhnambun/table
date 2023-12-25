@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Thêm nhân viên mới </p>
+    <form>
+        <label>First name:</label><br />
+        <input type="text" name="usename" id="usename" required ><br/>
+        <br/>
+        <label>Last name:</label><br />
+        <input type="text" name="last" id="last" /><br />
+        <br/>
+    </form>
+    <form> 
+        <label>Ngày Tháng Năm sinh </label>
+        <input type="date" name="date" id="date" required ><br/>
+        <br/>
+    </form>
+    <form>
+        <label>thời gian  </label>
+        <input type="time" name="time" id="time" required ><br/>
+        <br/>
+    </form>
+    <form >
+        <label>giới tính</label><br/>
+        <input type="radio">nam<br/>
+        <input type="radio">nữ<br/>
+        <input type="radio">khác<br/>
+        <br/>
+    </form><form>
+        <label>Email</label>
+        <input type="email" name="email" id="email"  required ><br/>
+        <br/>
+    </form>
+    <form>
+        <label>mật khẩu</label>
+        <input type="password" name="mk" id="mk" required minlength="8" ><br/>    
+    </form>
+    <form>
+        <br/>
+        <label>giới thiệu bản thân</label><br/>
+        <textarea name="" id="gt" cols="50" rows="5"></textarea>
+    </form>
+    <select name="city" >
+        <option value="hn">Hà Nội</option>
+        <option value="hp">Hải Phòng</option>
+        <option value="dn">Đà Nẵng</option>
+        <option value="sg">Sài Gòn</option>
+        <option value="ct">Cần Thơ</option>
+     </select>
+     <form>
+        <br/>
+        <label>chọn hình ảnh </label>
+        <input type="file" name="file" id="file" required><br/>  
+    </form>
+    <form>
+        <br/>
+        <label>sở thích  </label>
+        <input type="checkbox">code  
+        <input type="checkbox">chơi game
+        <input type="checkbox">bơi lội
+        <input type="checkbox">tài xỉu 
+    </form>
+    <form>
+        <label>năm kinh nghiệm</label>
+        <input type="number" min="1" max="10"><br/>    
+    </form>
+</body>
+</html>
